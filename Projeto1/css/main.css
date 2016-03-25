@@ -11,6 +11,8 @@ padding: 5px;
 }
 
 footer{
+text-align: center;
+padding-top: 40px;
 background: rgb(51, 148, 180);
 width: auto;
 height: 10%;
@@ -62,6 +64,10 @@ background-repeat: no-repeat;
 display: inline-block;
 }
 
+#email{
+	margin-left: 30px;
+}
+
 #slider{
 background: rgb(191, 215, 239);
 background-repeat: no-repeat;
@@ -88,7 +94,7 @@ padding: 5% 10% 5% 14%;
 	color: ;
 	font-family: Arial;
 	position: relative;
-	left: 40%;	
+	left: 40%;
 }
 
 #servico1{
@@ -126,9 +132,11 @@ margin: 0;
 padding: 5% 10%;
 }
 
+
+
 #endereco{
 background: rgba(255, 255, 255, 0.4);
-width: 30%;
+width: 40%;
 height: 100%;
 margin: 10px;
 float: left;
@@ -136,8 +144,9 @@ display: inline-block;
 }
 
 #formulario{
+float: right;
 background: rgba(255, 255, 255, 0.4);
-width: 60%;
+width: 50%;
 height: 100%;
 margin: 10px;
 }
