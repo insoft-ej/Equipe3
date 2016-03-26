@@ -1,6 +1,11 @@
+
+
 *{
-margin: 0;
+margin: 0px;
+padding: 0px;
 }
+
+
 
 header{
 background: rgb(123, 189, 225);
@@ -11,6 +16,7 @@ padding: 5px;
 }
 
 footer{
+text-align: center;
 background: rgb(191, 215, 239);
 width: auto;
 height: 10%;
@@ -32,7 +38,7 @@ display: inline-block;
 #menu{
 width: 37,5%;
 height: 52%;
-margin: 20px 200px;
+margin: 20px 280px;
 text-decoration: none;
 float: center;
 display: inline-block;
