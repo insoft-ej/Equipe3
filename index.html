@@ -1,7 +1,9 @@
 <html>
 	<head>
 
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="shortcut icon" href="imagem/icone_titulo.ico" >
 
 		<title>
 		Pr� Derma
@@ -9,23 +11,24 @@
 	</head>
 
 	<body>
+		<div id="div_tudo">
 		<header>
 			<div id="logo">
 			</div>
 
 			<div id="menu">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Serviços</a></li>
-					<li><a href="#">Contato</a></li>
-				</ul>
-
+				<button class="btn btn-menu">Home</button>
+				<button class="btn btn-menu">Servi�os</button>
+				<button class="btn btn-menu">A cl�nica</button>
+				<button class="btn btn-menu">Contatos</button>
+				<button class="btn btn-menu">DRA Lorena</button>
 			</div>
+		<div id="icones">
+		<a href="https://www.facebook.com/clinicaproderma/?fref=ts"><img src="imagem/facebookicon.png" id="facebook"></a>
+		<a href="#"><img src="imagem/twittericon.png"></a>
+		</div>
 
 		</header>
-
-
-
 
 
 		<div id="slider">
@@ -33,8 +36,9 @@
 		</div>
 
 		<div id="servicos">
-		<h1>Serviços</h1>
+		<h1>Servi&ccedilos</h1>
 			<div id="servico1">
+
 			</div>
 
 			<div id="servico2">
@@ -44,40 +48,63 @@
 			</div>
 		</div>
 
+		<div id="saiba-mais">
+			<button class="btn-saiba btn-saiba2 ">Saiba mais</button>
+			<button class="btn-saiba btn-saiba2">Saiba mais</button>
+			<button class="btn-saiba btn-saiba2">Saiba mais</button>
+		</div>
+
 		<div id="contato">
 
 			<div id="endereco">
-				<h3>Endereço</h3>
+				<h3>Endere&ccedilo</h3>
 				<span>
-					<b>Centro Clinico Vitale </b>
+					<b>Centro Cl�nico Vitale </b>
 					<b></b>
-					Rua Eiane Laquis, Nº 384
+					Rua Eliane Laquis, N 384
 					<b></b>
-					Luziania - GO
+					Luzi�nia - GO
 				</span>
 
 			</div>
 
 			<div id="formulario">
+				<h3>Agende uma consulta</h3>
 			<form>
-			<label>Nome: </label>
-			<input type="text" id="nome" placeholder="Digite o seu nome">
-			<label>Email: </label>
-			<input type="text" id="nome" placeholder="Digite o seu email">
-			<label>Telefone: </label>
+			<label>
+				Nome:
+				<input type="text" id="nome" placeholder="Digite o seu nome">
+			</label>
+
+			<label>
+				Email:
+				<input type="text" id="nome" placeholder="Digite o seu email">
+			</label>
+
+			<label>
+				Telefone:
 			<input type="text" id="nome" placeholder="Digite o seu telefone">
+			</label>
+			<label>
+				<br>
+				<br>
+			<textarea placeholder="Descreva aqui seu problema ou sua dúvida" rows="7" cols="75" id="caixaTexto" >
+			</textarea>
+
+			</label>
 			</form>
+				<br>
 				<button class="button button-azul">Enviar</button>
 			</div>
 
 		</div>
 
 
-
-
 		<footer>
+		<br>
 		<p>Copyright &copy Insoft</p>
 		</footer>
+	</div>
 	</body>
 
 </html>
