@@ -44,7 +44,7 @@ display: inline-block;
 }
 
 #icones a:hover{
-	background: white;
+	background: rgb(123, 189, 225);
 }
 
 #caixaTexto{
@@ -64,7 +64,7 @@ display: inline-block;
 
 #menu{
 width: 37,5%;
-height: 52%;
+height: 45%;
 margin: 20px 280px;
 text-decoration: none;
 float: center;
@@ -176,7 +176,7 @@ display: inline-block;
 #contato{
 background: rgb(255,255,255);
 width: auto;
-height: 40%;
+height: 55%;
 margin: 0;
 padding: 5% 10%;
 display: inline-block;
@@ -187,6 +187,7 @@ background: rgba(191, 215, 239, 0.5);
 width: 30%;
 height: 100%;
 margin: 10 20px;
+padding: 5 10;
 float: left;
 display: inline-block;
 }
@@ -196,6 +197,7 @@ background: rgba(191, 215, 239, 0.5);
 width: 60%;
 height: 100%;
 margin: 10 10px;
+padding: 5 10;
 display: inline-block;
 }
 
